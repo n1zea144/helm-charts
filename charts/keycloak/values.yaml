@@ -23,8 +23,8 @@ keycloak:
   replicas: 1
 
   image:
-    repository: jboss/keycloak
-    tag: 8.0.1
+    repository: n1zea144/cbioportal-keycloak
+    tag: version1.1
     pullPolicy: IfNotPresent
 
     ## Optionally specify an array of imagePullSecrets.
